@@ -67,7 +67,7 @@ Javascript, HTML, CSS, React, Nodejs, Express, MongoDb, C++
 
 - https://w3schools.com/
 
-- https://w3schools.com/
+- https://developer.mozilla.org/en-US/
 
 - Fireship.io
 
