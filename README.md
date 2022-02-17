@@ -69,12 +69,6 @@ Javascript, HTML, CSS, React, Nodejs, Express, MongoDb, C++
 
 - https://w3schools.com/
 
-## Cources/Video Lecture
-
-
-- Angela Yu 
-
-- 
 
 
 
