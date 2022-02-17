@@ -62,14 +62,6 @@ Javascript, HTML, CSS, React, Nodejs, Express, MongoDb, C++
 10.Github
 ```
 
-## Website to study
-
-
-- https://w3schools.com/
-
-- https://w3schools.com/
-
-
 ## Resources
 
 
@@ -89,6 +81,15 @@ Javascript, HTML, CSS, React, Nodejs, Express, MongoDb, C++
 
 - Web Dev Simplified
 
+- CodeStark
+
+- The new boston
+- Daily Tution
+- Akshay Saini
+- Hitesh Choudary
+- Java Brains
+- Codedamn
+- Adrian Twarog
 
 
 
