@@ -212,9 +212,7 @@ Udit Gulati
 Contact Details:
 - Web: https://forceiiitu.in
 - Email: clubforce@iiitu.ac.in
-- Phone: 234XXX343XX
-- Address: XYZ
-- Data:
+- Phone: 9416908474
 - Team members - https://github.com/pkspyder007/force-website/tree/master/data
 - Images - https://github.com/pkspyder007/force-website/tree/master/public/images
 
