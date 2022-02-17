@@ -70,5 +70,29 @@ Javascript, HTML, CSS, React, Nodejs, Express, MongoDb, C++
 - https://w3schools.com/
 
 
+## Resources
+
+
+- https://w3schools.com/
+
+- https://w3schools.com/
+
+- Fireship.io
+
+- Codevolution
+
+- Traversy Media
+
+- The Net Ninja
+
+- DevEd
+
+- Web Dev Simplified
+
+
+
+
+
+
 
 
