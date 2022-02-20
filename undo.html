@@ -1,0 +1,148 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+
+        }
+        .slow{
+         width:100%;
+         height:100px;
+         background:rgb(7, 6, 3);
+         display:flex;
+         justify-content:center;
+         align-items: center;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+         filter:drop-shadow(5px 5px 6px rgba(0,0,0,0.9));
+         word-spacing: 5px;
+         letter-spacing: 3px;
+         outline: 1px solid orange;
+        
+
+        }
+      .first{
+            color:orange;
+            text-shadow:2px 3px 2px  black;
+            font-size:25px;
+            font-weight:bold;
+            padding:5px;
+           box-shadow:1px 1px 10px 1px black;
+           border-radius:4px;
+           background-color:orange;
+           opacity:0.7;
+            
+            
+          }
+          img{
+              background:cover;
+              width:100%;
+          }
+          ul{
+              list-style-type: none;
+              width:33%;
+              float:right;
+              display:flex;
+              justify-content: space-around;
+             
+          }
+          li{
+              float:left;
+              margin:5px;
+              padding:4px 8px;
+              background-color: white;
+              filter:drop-shadow(5px 5px 6px rgba(248, 126, 4, 0.5));
+              width:50px;
+             display:flex;
+             justify-content: space-around;
+            
+          }
+          a{
+              text-decoration: none;
+              color:black;
+             
+             
+          }
+          li:hover{
+              background-color:orange;
+              padding:4px 10px;
+             }
+             img{
+                 width:80px;
+                 height:80px;
+               margin-top:-90px;
+               background-color:;
+               margin-left:40px;
+               position:absolute;
+              
+               filter:drop-shadow(-7px 6px 1px rgba(243, 147, 21, 1));
+             }
+             .second{
+                 background:orange;
+                 width:25%;
+                 word-spacing: 10px;
+                 padding:15px 4px;
+                 text-align: center;
+                 border-radius:3px;
+                 margin-top:150px;
+                 margin-left:40%;
+                 font-weight: bold;
+                
+             }
+             .third{
+                 width:70%;
+                 background-color:black;
+                 color:white;
+                word-spacing: 40px;
+                text-align: center;
+                margin-top:50px;
+                margin-left: 15%;
+                font-size: 40px;
+               text-decoration:underline;
+               padding:10px ;
+                
+             }
+             a::selection{
+                 background-color: black;
+             }
+             .third::selection{
+                 background:black;
+                 color:orange;
+             }
+             .second::selection{
+                 background:black;
+                 color:orange;
+             }
+             .first::selection{
+                 background:black;
+                 color:orange;
+             }
+
+    </style>
+</head>
+<body>
+    <div class="man">
+    <nav class="slow">
+     <p class="first">FORCE CLUB</p>
+    </nav>
+    <img src="force.png" alt="picture">
+   <ul>
+       <li><a href="#">Home</a></li>
+       <li><a href="#">Details</a></li>
+       <li><a href="#">Help</a></li>
+       <li><a href="#">About</a></li>
+       <li><a href="#">Contact</a></li>
+   </ul>
+    <p class="second">
+        ENHANCE YOUR SKILL WITH US
+    </p>
+    <p class="third">
+        FORCE - Forum  of Computer Engineers
+    </p>
+    </div>
+<!-- Code injected by live-server -->
+</body></html>
