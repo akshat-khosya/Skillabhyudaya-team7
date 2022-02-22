@@ -1,0 +1,48 @@
+/********************************************TAG SELECTORS***********************************/
+body {
+    background-color:azure;
+}
+h1{
+    color: blue;
+}
+h2{
+    color: maroon;
+}
+h3{
+    color: violet;
+}
+h4{
+    color: magenta;
+}
+h5{
+    color: blue;
+}
+
+/*********************************************CLASS SELECTORS****************************************/
+.iiitulogo{
+    background-color: red;
+}
+img:hover{
+    background-color: goldenrod;
+}
+.circular{
+    border-radius: 100%;
+}
+/********************************************ID SELECTORS*********************************************/
+#heading{
+    color: yellowgreen;
+}
+
+}
+hr { 
+    background-color:white;
+border-style: none ;
+border-top-style: dotted;
+border-color: grey;
+ 
+border-width: 5px;
+width: 5%;
+}
+img{
+height: 200px;
+}
