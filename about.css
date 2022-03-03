@@ -28,6 +28,7 @@ body{
    background-image: url(backg.jpg);
    background-size: cover;
    
+   
 }
 .logo{
     color:black;
@@ -56,4 +57,58 @@ body{
     opacity:0.5;
     text-shadow:4px 5px 7px lime;
     filter:drop-shadow(5px 6px 15px rgba(194, 250, 63, 0.7));
+}
+footer{
+    position: relative;
+    width: 100%;
+   background-image: url(backg.jpg);
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: .8;
+}
+footer .social_icon,
+footer .menu
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    padding-right: 50px;
+
+
+}
+footer .social_icon li,
+footer .menu li
+{
+    list-style: none;
+}
+footer .social_icon li a
+
+{
+    font-size: 2em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .social_icon li a:hover{
+    transform: translateY(-10px);
+}
+footer .menu li a
+{
+    font-size: 1.1em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: .75;
+}
+footer .menu li a:hover{
+    opacity: 1;
 }
