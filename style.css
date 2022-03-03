@@ -1,0 +1,168 @@
+
+.container{
+    margin-top: 50px;
+}
+
+      
+
+div.carousel-inner{
+        box-shadow: 0 14px 18px 0 aqua, 0 6px 20px 0 aqua;
+        text-align: center;
+}
+
+
+img{
+    position: relative;
+    margin-right: 10%;
+    height: 500px;
+    width: 100%
+}                                                                                                       
+
+/* Not important. General styling
+------------------------------------------ */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+*::before, *::after{ box-sizing: inherit; }
+body{
+  background-image: url('R.jpg'); 
+  background-color: #0a1b3f;
+ font-size: 1rem; line-height: 1.5; 
+  font-family: Roboto, sans-serif; padding: 2rem 2rem 0; }
+.wrapper{ display: flex; flex-flow: row; flex-wrap: wrap; justify-content: center; }
+.wrapper > *{ margin: 0 1rem 2rem; }
+
+/**************************************************
+** CARDS STYLING 
+***************************************************/
+/* Card outside box. Here is where the 
+** dimensions, shadows and borders are set 
+------------------------------------------ */
+.card{
+    margin-top: 5%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  width: 300px; /* Box dimensions */
+  height: 400px; 
+  border-radius: 4px; /* Styling */
+  box-shadow: 0 5px 5px 0 rgba(225, 204, 238, 0.733), 0 5px 5px 0px rgba(225, 204, 238, 0.733), 0 5px 5px 0 rgba(225, 204, 238, 0.733);  
+  transition: box-shadow 0.56s ease-in-out; /* Animation */
+  /* background-color: rgba(0,0,0,.2); /* for debugging */
+}
+/* Shows an outer shadow */
+.card:hover{ /* Just for styling */
+  cursor: pointer;
+  box-shadow: 0 24px 38px 3px rgba(209, 194, 218, 0.733), 0 9px 46px 8px rgba(0,0,0,0.12), 0 11px 15px -7px rgba(0,0,0,0.2);
+}
+
+/* Cards titles styling
+------------------------------------------ */
+.card__title{ /* Just for styling */
+    margin-top: 5%;
+    align-self: flex-end; padding: 0.5rem;
+    color: rgb(255, 255, 255); font-size: 2rem;
+    line-height: 1;font-weight: 600; }  
+
+/* Styles for:
+** - Using IMG tag inside a container
+------------------------------------------ */
+/* The image container */
+.card__thumbnail{
+  position: relative;
+  overflow: hidden;  
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center */
+ width: 100%; /* Thumbnail dimensions. */
+  height: 100%; /*** Change the height to make the image smaller ***/
+  /* background-color: rgba(0,0,0,.2);  /* for debugging */
+  
+}
+/* Sets the image dimensions */
+.card__thumbnail > img{ /* Tip: use 1:1 ratio images */
+  height: 100%; /* or width when img.width > img.height */ 
+}  
+/* Styles the title inside the img container */
+.card__thumbnail > .card__title{ /* Just for styling */
+  position: absolute; left: 0; bottom: 0; }
+
+
+/* Styles for:
+** - Using background-size on CSS
+** - Using background-size on HTML
+** - Using background-size on JS
+------------------------------------------ */
+/* Prepares a container to have cover background */
+.has-bg-img{
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+/* Loads a specific image to a container */
+.bg-img-nature{
+  background-image: url(https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+}
+
+h1 {
+  color:rgb(237, 238, 237);
+}
+div.scroll {
+  margin-top: 3%;
+  margin-left: 5%;
+  padding:4px;
+  background-color: rgb(10, 10, 10);
+  width: 600px;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align:justify;
+  font-family: Roboto, sans-serif; padding: 2rem 2rem 0; 
+  font-size: 1rem; line-height: 1.5; 
+  color: white;
+}
+
+.pic {
+  border: 1px solid rgb(24, 23, 23);
+  border-radius: 50%;
+  padding: 5px;
+  width: 500px;
+  height: 400px;
+  margin-left: 5%;
+}
+
+.topnav{
+    background-color:black;
+    border-radius: 4px;
+    outline:2px solid aqua;
+    filter:drop-shadow(5px 6px 7px rgba(85, 248, 248, 0.7));
+  }
+  .nav-item{
+      margin: 15px;
+      border-radius: 4px;
+      outline:2px solid aqua;
+      width:100px;
+     text-align: center;
+     line-height:15px;
+     
+     
+  }
+  
+  .nav-link:hover{
+      background-image: repeating-linear-gradient(45deg, aqua 20%, black 40%, lime 40%);
+  }
+  .nav-link span:hover{
+      color:black;
+  }
+  .navbar-nav{
+      width:100%;
+  }
+  body{
+      background-color: black;
+  }
+  .logo{
+      color:black;
+      font-size: 60px;
+     font-family: 'Faster One' ;
+     text-shadow: 6px 7px 5px  aqua; 
+     
+  }
