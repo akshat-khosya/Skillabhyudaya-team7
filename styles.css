@@ -1,0 +1,85 @@
+ .bg-div1{
+     background-color: #191919;
+ }
+ .container-f{
+     color: white;
+     line-height: 1.5;
+      
+ }
+  .text-copy{
+      color: white;
+  }
+  .text-xs-1{
+      margin-top: 50px;
+       
+  }
+  .text-xs{
+    margin-top: 50px;
+     
+}
+ .what-we-do {
+     margin-top: 200px;
+      
+ }
+    .we-do{
+         line-height: 1.7;
+    }
+    .we-d{
+        margin-top: 10px;
+        margin-bottom: 200px;
+   } 
+   .why-should{
+    margin-top: 200px;
+     
+}
+ .my-md-5,.fa-w-16,.fa-w-10,.fa-w-14{
+     color: white;
+     
+ }
+ .col-md-4{
+     image-resolution:  600px;
+ }
+  .get-in{
+      margin-top: 0px;
+  }
+  .mb-7{
+      color: white;
+  }
+  .my-auto{
+      color: white;
+  }
+  .teamnav{
+      color: white;
+  }
+  .display-1{
+      text-decoration: underline;
+  }
+   .Wallst1{
+       height: 300px;
+       width: 500px;
+       float: right;
+       margin-right: 200px;
+   }
+   .wallstt1{
+       margin-left: 200px;
+   }
+   .wallst2{
+    height: 300px;
+    width: 400px;
+    float: left;
+    margin-left: 150px;
+}
+   .wallstt2{
+    margin-left: 750px;
+     
+   }
+.wallst12{
+    margin-top: 100px;
+}
+  
+  
+ .codeof{
+     margin-top: 100px;
+     margin-bottom: 100px;
+ }
+ 
