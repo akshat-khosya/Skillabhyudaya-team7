@@ -42,10 +42,10 @@
      
   }
   body{
-    background: linear-gradient(to bottom, rgb(14, 14, 75) 0%, black 100%) fixed;
-    background-image: url(backg.jpg);
-    background-size: cover;
-  padding-left: auto;
+   
+   background: black;
+    
+  
   justify-content: center;
   align-items: center;
  display: flex;

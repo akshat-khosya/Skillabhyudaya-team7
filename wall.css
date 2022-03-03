@@ -100,8 +100,9 @@ transition: 0.5s;
     color: black;
 }
 h1{  
-   color: white;
+   color: aqua;
     margin-top: 40px;
+    font-size: 1.3em;
 
 }
 hr{
